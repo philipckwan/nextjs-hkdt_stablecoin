@@ -1,0 +1,25 @@
+initialize the project directory using "create-next_app" command:
+
+> pwd
+workspaces
+
+> npx create-next-app@latest
+Need to install the following packages:
+  create-next-app@latest
+Ok to proceed? (y) y
+✔ What is your project named? … nextjs-hkdt_stablecoin
+✔ Would you like to use TypeScript with this project? … No / Yes
+✔ Would you like to use ESLint with this project? … No / Yes
+✔ Would you like to use `src/` directory with this project? … No / Yes
+✔ Would you like to use experimental `app/` directory with this project? … No / Yes
+✔ What import alias would you like configured? … @/*
+Creating a new Next.js app in /Users/philip/workspaces/workspace-blockchain/nextjs-hkdt_stablecoin.
+
+> cd nextjs-hkdt_stablecoin
+
+----------
+
+run server:
+
+> npm run dev
+
