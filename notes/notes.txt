@@ -23,3 +23,15 @@ run server:
 
 > npm run dev
 
+
+-----------
+
+Add tailwindcss
+
+> npm install -D tailwindcss
+
+not sure if this following steps is really needed:
+> npx tailwindcss init
+
+use tailwindcss-cli instead of just tailwind, for it seems to generate a longer css:
+> npx tailwindcss-cli build -i src/tailwindcss_input/input.css -o src/styles/output.css

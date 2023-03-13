@@ -1,5 +1,5 @@
 // index.html
-const version = "v0.4";
+const version = "v0.6";
 
 import {timeLog, mapEthereumNetwork} from '@/lib/PCKUtils'
 import {useEffect, useState, useRef} from 'react'
@@ -116,7 +116,7 @@ export default function HomePage() {
             <td>{version}</td>
           </tr>          
           <tr>
-            <td><button onClick={connectDisconnectWallet}>{connectedWalletAddress === CONNECTED_WALLET_ADDRESS_NA ? "Connect" : "Disconnect"} Wallet</button></td>
+            <td><button className="inline-block px-1 py-1 rounded-lg shadow-sm bg-indigo-500 text-white" onClick={connectDisconnectWallet}>{connectedWalletAddress === CONNECTED_WALLET_ADDRESS_NA ? "Connect" : "Disconnect"} Wallet</button></td>
             <td>{metamaskStatus}</td>
           </tr>     
           <tr>
@@ -126,7 +126,7 @@ export default function HomePage() {
             }</td>
           </tr>     
           <tr>
-            <td class="text-4xl">connected wallet address</td>
+            <td className="text-4xl">connected wallet address</td>
             <td>{connectedWalletAddress}</td>
           </tr>      
           <tr>
@@ -162,11 +162,11 @@ export default function HomePage() {
           </tr>
           <tr>
             <td>Approve USDC</td>
-            <td><button onClick={approveUSDC}>Approve USDC</button></td>
+            <td><button className="inline-block px-1 py-1 rounded-lg shadow-sm bg-indigo-500 text-white" onClick={approveUSDC}>Approve USDC</button></td>
           </tr>
           <tr>
             <td>Deposit USDC to mint HKDT</td>
-            <td><button onClick={depositUSDC}>Deposit USDC</button></td>
+            <td><button className="inline-block px-1 py-1 rounded-lg shadow-sm bg-indigo-500 text-white" onClick={depositUSDC}>Deposit USDC</button></td>
           </tr>
           <tr>
             <td>Amount of HKDT to burn</td>
@@ -174,7 +174,7 @@ export default function HomePage() {
           </tr>
           <tr>
             <td>Burn HKDT to withdraw USDC</td>
-            <td><button onClick={withdrawUSDC}>Withdraw USDC</button></td>
+            <td><button className="inline-block px-1 py-1 rounded-lg shadow-sm bg-indigo-500 text-white" onClick={withdrawUSDC}>Withdraw USDC</button></td>
           </tr>
           </tbody>
         </table>
