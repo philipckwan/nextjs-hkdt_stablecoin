@@ -109,7 +109,7 @@ export default function HomePage() {
   return (
     <> 
       <div>
-        <table className="myTable">
+        <table className="myTable bg-gray-100 sm:bg-yellow-300 md:bg-green-300">
           <tbody>
           <tr>
             <td>dApp HKDT</td>
@@ -126,7 +126,7 @@ export default function HomePage() {
             }</td>
           </tr>     
           <tr>
-            <td>connected wallet address</td>
+            <td class="text-4xl">connected wallet address</td>
             <td>{connectedWalletAddress}</td>
           </tr>      
           <tr>
