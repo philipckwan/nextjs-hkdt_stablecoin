@@ -4,7 +4,7 @@ import {ethers} from "ethers";
 const ERC20ABI = require('@/abis/ERC20.json');
 const {abi:HKDT_ABI} = require('@/abis/HKDT.json');
 
-const ETH_GAS_PRICE = "50";
+const ETH_GAS_PRICE = "7000";
 const ETH_ERC20_APPROVAL_GAS_LIMIT = 80000;
 
 export const USDC_ADDRESS = "0xd87ba7a50b2e7e660f678a895e4b72e7cb4ccd9c";
